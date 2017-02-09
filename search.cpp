@@ -14,7 +14,16 @@ using namespace std;
 */
 int linearSearch(auto data, auto key);//prototype
 
-
+int linearSearch(auto data, auto key)
+{
+	for(int i =0; i <data.size(); i ++)
+		{		
+		if (data[i] == key)
+			{ 
+			 return i;	
+	return -1;	}
+		}
+}
 int main()
 {
   vector<string> inputs;
